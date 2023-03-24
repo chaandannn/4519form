@@ -32,4 +32,12 @@ select:focus, select:active, input:focus, input:active, input:focus + label, inp
 color: #FFF !important;
 background-color: #BB3D2F !important;
 }
+label.required:after {
+  content: " *";
+  color: red;
+}
+label.optional:after {
+  content: " *";
+  color: gray;
+}
 
